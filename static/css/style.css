@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+@media screen and (max-width: 800px) {
+    .container-fluid { display: flex; flex-flow: column; }
+    .main_content { order: 1; }
+    .right-side-bar { order: 2;  }
+    .left-side-bar { order: 3; }
+}
+
+#dashboard {
+	padding-top: 1rem;
+	background-color: #FFFACD;
+	width: 100%;
+	text-align: center;
+}
+
+.left-side-bar{
+	margin: 0;
+	padding: 0;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.right-side-bar{
+	margin: 0;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+iframe {
+	text-align: center;
+	display: block;
+	padding-bottom: 0.5rem;
+	margin: auto;
+}
+
+.main_content{
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+h3 {
+	color: #3498DB;
+}
+
+h5 {
+	text-align: center;
+	margin: 0;
+	margin-top: 10px;
+	color: #FF4500;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+h6 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #3498DB;
+	padding-bottom: 0;
+}
+
+hr {
+	width: 60%;
+	margin: auto;
+	height: 0.5rem;
+	margin-top: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+#eventTable {
+	margin: auto;
+	table-layout: fixed;
+}
+
+.analy-image {
+	display: block;
+	padding: 0;
+ 	margin-left: auto;
+	margin-right: auto;
+	width: 85%;	
+}
+
+th {
+	width: 10rem;
+	font: medium-caption;
+	font-weight: normal;
+	color: white;
+	background-color: #191970;
+}
+
+.eventdate {
+	width: 35%;
+	padding-left: 0.7rem;
+	text-align: left;	
+}
+.eventname {
+	width: 65%;
+	padding-left: 0.7rem;
+	text-align: left;	
+}
+
+.thumbnail .caption .newsLinks {
+	background-color: lightgrey;
+}
+
+.section {
+	background-color: red;
+}
+
+.titles {
+	grid-column-end: span 3;
+	grid-row-end: span 1;
+	background-color: white;
+}
+
+.footer {
+	grid-column-end: span 3;
+	grid-row-end: span 1;
+	text-align: center;
+}
+
+.navbar {
+	background-color: #00B0F0;
+}
+
+#mainMenu {
+	padding-right: 4rem;
+}
+
+#iconimg {
+	padding-top: 0.05rem;
+	padding-bottom: 0.05rem;
+	margin: 0;
+}
+
+.navbar .navbar-brand {
+	padding-top: 0.05rem;
+	padding-bottom: 0.05rem;
+	margin: 0;
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-brand {
+    line-height: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 3rem;
+    padding-top: 0.05rem;
+}
+.navbar-nav li a {
+    line-height: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+
+strike {
+	color: red;
+}
+
+b {
+	color: green;
+}
+
+p {
+	color: black;
+	font: source-sans-pro;
+}
+
+h1 {
+	color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  /*text-decoration:none;*/
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+#home-intro1 {
+	background-color: #DAF7A6;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#home-intro3 {
+	background-color: #DAF7A6;
+	padding: 0;
+	margin: 0;
+	padding-left: 1rem;
+}
+#home-intro2 {
+	background-color: #FFFACD;
+	padding: 0;
+	margin: 0;
+	padding-left: 1rem;
+}
+#home-intro4 {
+	background-color: #FFFACD;
+	padding: 0;
+	margin: 0;
+	padding-left: 1rem;
+}
+
+	
+#lists {
+	margin-left: 2rem;
+}
+
+#gotohome {
+	align-items: center;
+	text-align: center;
+}
+
+
+/*/////////////////////*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.top-content .carousel-control-prev { left: -92px; }
+.top-content .carousel-control-next { right: -92px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.top-content .carousel-control-prev { left: -86px; }
+.top-content .carousel-control-next { right: -86px; }
+}
+
+@media (max-width: 767px) {
+.top-content .carousel-control-prev
+.top-content .carousel-control-next
+.top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
+}
+
+.top-content { 
+	width: 100%; 
+	padding: 1rem 0 1rem 0; 
+	background-color: 838B8B;
+}
+
+.top-content .carousel {
+ box-shadow: 0 0 15px 0 #444; 
+}
+
+.top-content .carousel-control-prev { 
+	left: -7rem; border-bottom: 0; 
+	background-color: black;
+}
+
+.top-content .carousel-control-next { 
+	right: -7rem; border-bottom: 0; 
+	background-color: black;
+}
+
+.top-content .carousel-indicators { 
+	bottom: -2rem; }
+
+.top-content .carousel-indicators li { 
+	width: 0.6rem; 
+	height: 0.6rem; 
+	margin-left: 0.25rem; 
+	margin-right: 0.25rem; 
+	border-radius: 50%; 
+}
+
+
+
